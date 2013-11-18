@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report auto="False" id="report_compra_quotation" model="purchase.order" 
+                name="purchase.quotation" rml="compra_grafibond/report/request_quotation.rml"
+                string="Request for Quotation"/>
+        <report auto="False" id="report_compra_order" model="purchase.order"
+                name="purchase.order" rml="compra_grafibond/report/order.rml"
+                usage="default" string="Purchase Order"/>
+    </data>
+</openerp>
